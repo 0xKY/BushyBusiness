@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "bushybusiness",
+  "version": "${version}",
+  "name": "BushyBusiness",
+  "description": "Improving Minecraft's foliage",
+  "authors": [
+    "KaloyanKYS"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/bushybusiness/bushybiz_icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "me.kaloyankys.bushybusiness.client.BushybusinessClient"
+    ],
+    "main": [
+      "me.kaloyankys.bushybusiness.Bushybusiness"
+    ]
+  },
+  "mixins": [
+    "bushybusiness.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.2",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}
